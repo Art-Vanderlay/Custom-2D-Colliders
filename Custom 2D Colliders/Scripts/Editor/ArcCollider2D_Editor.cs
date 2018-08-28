@@ -45,7 +45,7 @@ public class ArcCollider_Editor : Editor {
             ac.gameObject.AddComponent<PolygonCollider2D>();
             polyCollider = ac.GetComponent<PolygonCollider2D>();
         }
-        polyCollider.points = ac.getPoints(polyCollider.offset);
+        //polyCollider.points = ac.getPoints(polyCollider.offset);
     }
 
     public override void OnInspectorGUI()
